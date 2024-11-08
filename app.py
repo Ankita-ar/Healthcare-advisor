@@ -11,7 +11,7 @@ load_dotenv()  # This will load the local environment vars...
 genai.configure(api_key = os.getenv("GOOGLE-API-KEY"))
 
 # Streamlit Page
-st.header("Healthcare blue[Advisor]")
+st.header("Healthcare :blue[Advisor]")
 input = st.text_input("Hi! I am you Medical Expert. Ask me Anything")
 submit = st.button("Submit")
 
